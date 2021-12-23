@@ -1,8 +1,8 @@
 <?php header('Content-Type: application/json');
 
 
-$write_servername = 'inventory-db-instance-1.cyonebk9s61c.us-east-1.rds.amazonaws.com';
-$read_servername = 'inventory-db-instance-2.cyonebk9s61c.us-east-1.rds.amazonaws.com';
+$write_servername = 'inventory-db-instance-2.cyonebk9s61c.us-east-1.rds.amazonaws.com';
+$read_servername = 'inventory-db-instance-1.cyonebk9s61c.us-east-1.rds.amazonaws.com';
 $username = 'master';
 $password = 'lab-password';
 $database = 'inventory';
